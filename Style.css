@@ -1,0 +1,287 @@
+/* Propiedades del id asignado al botón de Login, en el cual se le establece tamaño, posición y fuente */
+#Butlog {
+   border: green 1px solid;
+    
+   width:120px;
+   height:50px;
+   font-size: 20px;
+   margin-top: 40px;
+   margin-left: 1500px;
+   
+}
+
+/* Propiedades de la clase asignada a un label, en el cual se le establece posición y fuente */
+.welcome{
+    font-family: Arial;
+    margin-left: 520px;
+}
+
+/* Propiedades de la clase asignada a un field, en el cual se le establece la posición */
+.field{
+   margin-left: 520px;
+   margin-right: 250px; 
+}
+
+/* Propiedades de la clase asignada a un label, en el cual se le establece la posición y fuente */
+.labelFrom{
+    margin-left: 50px;
+    font-family: Arial;
+}
+
+/* Propiedades de la clase asignada a un label, en el cual se le establece la posición y fuente */
+.labelTo{
+    margin-left: 150px;
+    font-family: Arial;
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece borde, posición, fuente y se le quita la linea */
+#butrid{
+    margin-left: 130px;
+    font-family: Arial;
+    border: green 1px solid;
+    border-radius: 20px;
+    outline:none;
+}
+
+/* Propiedades de la clase asignada a una tabla, en el cual se le establece la posición, fuente y tamaño */
+.table{
+   font-family: Arial;
+   margin-left: 520px;
+   margin-right: 250px; 
+   width: 895px; 
+   
+}
+
+/* Propiedades asignadas a los encabezados de una tabla, en el cual se le establece color */
+th {
+    background-color: darkgray
+}
+
+/* Propiedades asignadas a las columnas de una tabla, en el cual se le establece color */
+td {
+    background-color: aliceblue
+}
+
+/* Propiedades del id asignado a una imagen, en el cual se le establece posición */
+#logo{
+  margin-top: 90px;  
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#User{
+    font-family: Arial;
+    margin-top: 40px;  
+    margin-left: 50px;
+    border: green 1px solid;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#Pass{
+    font-family: Arial;
+    margin-top: 60px;  
+    margin-left: 50px;
+    border: pink 1px solid;
+}
+
+/* Propiedades del id asignado a un label, en el cual se le establece posición y fuente  */
+#label{
+    font-family: Arial;
+    font-size: small;
+    margin-left: 705px;
+    margin-top: 30px;  
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece posición, fuente y borde */
+#Butreg{
+    margin-top: 30px;  
+    font-family: Arial;
+    margin-left: 160px;
+    border: green 1px solid;
+    border-radius: 20px;
+    outline:none;
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece posición, fuente y borde */
+#Butlogreal{
+    margin-top: 50px;  
+    font-family: Arial;
+    margin-left: 40px;
+    border: pink 4px solid;
+    border-radius: 40px;
+    font-size: x-large;
+    outline:none;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#re{
+    font-family: Arial;
+    margin-top: 40px;  
+    margin-left: 50px;
+    border: Orange    1px solid;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#labelre{
+    font-family: Arial;
+    font-size: small;
+    margin-left: 52px;
+    margin-top: 30px;  
+    margin-right: 130px;
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece posición, fuente y borde */
+#butlo{
+    margin-top: 30px;  
+    font-family: Arial;
+    border: green 1px solid;
+    border-radius: 20px;
+    outline:none;
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece posición, fuente y borde */
+.tab1{
+    margin-top: 50px;  
+    font-family: Arial;
+    border: pink 4px solid;
+    border-radius: 40px;
+    font-size: x-large;
+    outline:none;  
+    outline:none;
+    
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece un color para demostrar el focus de este */
+#colorfocus{
+    border: orange 4px solid;
+    }
+
+/* Propiedades del id asignado a un label, en el cual se le establece posición y fuente */
+#labeldash{
+    margin-left: 300px;
+    font-family: Arial;
+}
+
+/* Propiedades del id asignado a un label, en el cual se le establece posición y fuente */
+#labelwel{ 
+    margin-left: 1270px;
+    font-family: Arial;
+}
+
+/* Propiedades del id asignado a una imagen, en el cual se le establece tamaño y borde */
+#avatar{
+    width: 25px; height: 25px; 
+    border-style: groove
+}
+
+/* Propiedades del id asignado a un label con referencia, en el cual se le establece posición, fuente y se le anula la decoración del texto */
+#lol{
+    font-size: large;
+    font-family: Arial;
+    margin-left: 300px;
+    text-decoration:none
+}
+
+/* Propiedades del id asignado a una tabla, en el cual se le establece posición, fuente, tamaño y borde */
+#tabledas{
+       margin-left: 420px;
+}
+
+/* Propiedades del id asignado a un boton, en el cual se le establece posición, fuente, tamaño y borde */
+#Buttonsdas{
+   border: green 1px solid;
+   width:120px;
+   height:50px;
+   font-size: 20px;
+   margin-top: 25px;
+}
+
+/* Propiedades para eliminar la decoración de texto en todos los hipervinculos  */
+a{
+        text-decoration:none
+}
+
+/* Propiedades del id asignado a un label con referencia, en el cual se le establece posición, fuente y se le anula la decoración del texto */
+#loli{
+    font-size: large;
+    font-family: Arial;
+    text-decoration:none
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#set{
+    font-family: Arial;
+    margin-top: 60px;  
+    margin-left: 70px;
+    border: green    1px solid;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#seti{
+    font-family: Arial;
+    margin-top: 60px;  
+    margin-left: 55px;
+    border: Orange    1px solid;
+}
+
+/* Propiedades del id asignado a una caja de texto, en el cual se le establece posición, fuente y borde */
+#box{
+    font-family: Arial;
+    margin-left: 700px;
+    border-color: cadetblue
+}
+
+/* Propiedades del id asignado a un botón, en el cual se le establece posición, fuente, borde y tamaño */
+#butseti {
+   border: green 1px solid;
+   width:120px;
+   height:50px;
+   font-size: 20px;
+   margin-top: 25px;
+   margin-left: 50px;
+   margin-right: 10px;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#sete{
+    font-family: Arial;
+    margin-top: 10px;  
+    margin-left: 70px;
+    border: green    1px solid; 
+}
+
+/* Propiedades del id asignado a un field, en el cual se le establece fuente y color */
+#field{
+    font-family: Arial;
+    border-color: cadetblue
+}
+
+/* Propiedades del id asignado a un checkbox, en el cual se le establece posición, fuente y borde */
+#check{
+    font-family: Arial;
+    margin-left: 20px;
+    border: green    1px solid;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#setx{
+    font-family: Arial;
+    margin-top: 20px;  
+    margin-left: 70px;
+    border: green    1px solid;
+}
+
+/* Propiedades del id asignado a un label e input, en el cual se le establece posición, fuente y borde */
+#setix{
+    font-family: Arial;
+    margin-top: 20px;  
+    margin-left: 55px;
+    border: Orange    1px solid;
+}
+
+/* Propiedades del id asignado a una caja de texto, en el cual se le establece posición, ssuente y borde */
+#boxi{
+   font-family: Arial;
+    margin-top: 10px;  
+    margin-left: 50px;
+    border-color: cadetblue 
+}
