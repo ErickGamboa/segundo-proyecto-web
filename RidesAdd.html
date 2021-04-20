@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
 </head>
 
 <body>
@@ -49,15 +49,15 @@ Settings
 
 <center>
 <label id="setx">Ride Name:</label>
-<input type="text" id="setix" name="re" >
+<input type="text" id="setix" name="re" data-input = "ridename">
 </center>
 
 <center>
 <label id="setx">Star From:</label>
-<input type="text" id="setix" name="re" >
+<input type="text" id="setix" name="re" data-input = "ridestar" >
 
 <label id="setx">End:</label>
-<input type="text" id="setix" name="re" >
+<input type="text" id="setix" name="re" data-input = "rideend" >
 
     <center>
     <br>
@@ -65,7 +65,7 @@ Settings
         
     </center>
 
-<textarea id="boxi" rows="4" cols="70"></textarea > 
+<textarea id="boxi" rows="4" cols="70" data-input = "ridedescription"></textarea > 
 
     
 </center>
@@ -73,34 +73,34 @@ Settings
     <legend>When</legend>
 <center>
 <label id="sete">Departure:</label>
-<input type="text" id="sete" name="re" >
+<input type="text" id="sete" name="re"data-input = "ridedepar" >
 
 <label id="sete">Estimate Arrival:</label>
-<input type="text" id="sete" name="re" >
+<input type="text" id="sete" name="re" data-input = "rideestimate" >
 <br>
 <br>
 <label>Select days:</label>
     
 <label id="sete">Monday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridemonday" >
     
 <label id="sete">Tuesday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridetuesday" >
     
 <label id="sete">Wednesday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridewednesday" >
     
 <label id="sete">Thursday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridethursday" >
     
 <label id="sete">Friday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridefriday" >
     
 <label id="sete">Saturday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridesaturday" >
     
 <label id="sete">Sunday:</label>
-<input type="checkbox" id="check" name="re" >
+<input type="checkbox" id="check" name="re" data-input = "ridesunday" >
 
 </center>
     </fieldset>
@@ -112,16 +112,15 @@ Cancel
 </button>
 </a>
     
-    <a href="RidesAdd.html">
-<button id="butseti" name="Buttonsdas"> 
+
+<button id="butseti" name="Buttonsdas" data-save-btn> 
 Save
 </button>
-</a>
     
     </center>
 
-<script type="text/javascript" src = "./index.js">
+ <script type="text/javascript" src = "./Dashboard.js">
     
-    </script>    
+    </script>
     
 </body>
